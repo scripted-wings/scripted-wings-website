@@ -15,7 +15,8 @@ const Footer = () => {
 
                             <p>
                                 Scripted Wings Technology Solutions, Regency
-                                Tower, Vastrapur, Ahmedabad, Gujarat 380015
+                                Tower, Vastrapur, Ahmedabad, Gujarat India -
+                                380015
                             </p>
                         </div>
 
@@ -26,7 +27,8 @@ const Footer = () => {
 
                             <p>
                                 301, 302 & 303, Shubham Complex, Shrimali
-                                Society, Navrangpura, Ahmedabad, Gujarat 380009
+                                Society, Navrangpura, Ahmedabad, Gujarat, India
+                                - 380009
                             </p>
                         </div>
                     </div>
@@ -38,7 +40,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <p className="tracking-widest">+91-97731-95484</p>
+                            <p className="tracking-widest">+91 97731 95484</p>
                             <span className="h-0.5 w-full bg-font-color transition-all group-hover:translate-x-4" />
                         </Link>
 

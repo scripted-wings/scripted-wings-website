@@ -51,6 +51,9 @@ export const getMetadata = (
         },
         alternates: {
             canonical: "https://scriptedwings.com",
+            languages: {
+                en: "https://scriptedwings.com",
+            },
         },
         applicationName: "Scripted Wings Technology Solutions",
         category: "Technology",

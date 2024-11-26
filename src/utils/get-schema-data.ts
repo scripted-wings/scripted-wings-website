@@ -15,6 +15,9 @@ export const getSchemaData = (
                 name: "Scripted Wings Technology Solutions",
                 url: "https://scriptedwings.com",
                 publisher: {
+                    "@id": "https://scriptedwings.com/#organization",
+                },
+                about: {
                     "@id": "https://scriptedwings.com/#identity",
                 },
             },
@@ -39,17 +42,61 @@ export const getSchemaData = (
                 primaryImageOfPage: {
                     "@id": "https://scriptedwings.com/#logo",
                 },
+                breadcrumb: {
+                    "@id": "https://scriptedwings.com/#breadcrumb",
+                },
             },
             {
                 "@id": "https://scriptedwings.com/#identity",
+                "@type": "Thing",
+                name: "Scripted Wings Technology Solutions",
+                url: "https://scriptedwings.com",
+                description:
+                    "Discover Scripted Wings Technology Solutions. We craft websites, apps, and cloud solutions to help businesses innovate and thrive.",
+                sameAs: [
+                    "https://twitter.com/ScriptedWingsHQ",
+                    "https://facebook.com/ScriptedWingsHQ",
+                    "https://instagram.com/ScriptedWingsHQ",
+                    "https://www.linkedin.com/company/scripted-wings-hq",
+                ],
+            },
+            {
+                "@id": "https://scriptedwings.com/#organization",
                 "@type": "Organization",
                 name: "Scripted Wings Technology Solutions",
                 url: "https://scriptedwings.com",
+                logo: "https://ik.imagekit.io/scriptedwings/og.svg",
+                contactPoint: [
+                    {
+                        "@type": "ContactPoint",
+                        telephone: "+91 97731 95484",
+                        contactType: "Customer Service",
+                        areaServed: "IN",
+                        availableLanguage: ["English"],
+                    },
+                ],
+                address: {
+                    "@type": "PostalAddress",
+                    streetAddress:
+                        "Scripted Wings Technology Solutions, Regency Tower, Vastrapur",
+                    addressLocality: "Ahmedabad",
+                    addressRegion: "Gujarat",
+                    postalCode: "380015",
+                    addressCountry: "India",
+                },
                 aggregateRating: {
+                    "@type": "AggregateRating",
                     ratingValue: 4.9,
                     reviewCount: 271,
+                    bestRating: 5,
+                    worstRating: 4.5,
                 },
-                sameAs: ["https://twitter.com/ScriptedWingsHQ"],
+                sameAs: [
+                    "https://twitter.com/ScriptedWingsHQ",
+                    "https://facebook.com/ScriptedWingsHQ",
+                    "https://instagram.com/ScriptedWingsHQ",
+                    "https://www.linkedin.com/company/scripted-wings-hq",
+                ],
             },
             {
                 "@id": "https://scriptedwings.com/#logo",
@@ -60,12 +107,22 @@ export const getSchemaData = (
                 url: "https://ik.imagekit.io/scriptedwings/og.svg",
             },
             {
-                "@id": "https://scriptedwings.com/#organization",
-                "@type": "Organization",
-                logo: "https://ik.imagekit.io/scriptedwings/og.svg",
-                name: "Scripted Wings Technology Solutions",
-                url: "https://scriptedwings.com",
-                sameAs: ["https://twitter.com/ScriptedWingsHQ"],
+                "@type": "BreadcrumbList",
+                "@id": "https://scriptedwings.com/#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://scriptedwings.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: title,
+                        item: url,
+                    },
+                ],
             },
         ],
     };
