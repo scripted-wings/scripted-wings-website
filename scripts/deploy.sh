@@ -1,11 +1,14 @@
-echo("Fetching code from git")
+#!/bin/bash
+set -e  # Exit script on any command failure
+
+echo "Fetching code from git"
 git pull
 
-echo("Installing dependencies")
+echo "Installing dependencies"
 npm install
 
-echo("Building the project")
+echo "Building the project"
 npm run build
 
-echo("Restarting the server")
-pm2 restart 0
+echo "Restarting the server"
+pm2 restart scripted-wings-website
