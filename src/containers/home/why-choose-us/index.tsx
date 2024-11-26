@@ -22,9 +22,9 @@ const WhyChooseUs = () => {
                         key={advantage.id}
                         className="flex flex-col justify-center bg-background-color p-6 hover:relative hover:shadow-xl md:p-10"
                     >
-                        <h3 className="text-2xl font-semibold md:text-3xl">
+                        <h4 className="text-2xl font-semibold md:text-3xl">
                             {advantage.title}
-                        </h3>
+                        </h4>
 
                         <p className="mt-4 md:text-lg">{advantage.content}</p>
                     </div>

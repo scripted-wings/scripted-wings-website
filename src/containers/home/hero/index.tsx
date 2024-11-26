@@ -16,20 +16,20 @@ const Hero = () => {
                     </h1>
                 </div>
 
-                <h5 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
+                <h2 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
                     Welcome to Scripted Wings Technology Solutions. Your
                     launchpad for turning bold ideas into game-changing digital
                     experiences. From stunning websites to cutting-edge apps and
                     seamless cloud solutions, we&apos;re here to help your
                     business break boundaries, redefine success, and own the
                     future.
-                </h5>
+                </h2>
 
-                <h5 className="mb-8 text-lg lg:mb-10 lg:text-xl">
+                <h3 className="mb-8 text-lg lg:mb-10 lg:text-xl">
                     Innovation meets hustle, powered by tech that works as hard
                     as you do. Let&apos;s build something extraordinary
                     together. 💡✨
-                </h5>
+                </h3>
 
                 <Link
                     href="/#contact-us"

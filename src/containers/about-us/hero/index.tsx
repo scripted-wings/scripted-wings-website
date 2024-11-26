@@ -10,16 +10,16 @@ const Hero = () => {
                     About Us
                 </h1>
 
-                <h4 className="mt-4 text-2xl font-medium lg:text-3xl">
+                <h2 className="mt-4 text-2xl font-medium lg:text-3xl">
                     More than a team — your partners in digital transformation.
-                </h4>
+                </h2>
 
-                <h5 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
+                <h3 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
                     At Scripted Wings Technology Solutions, we turn bold ideas
                     into reality. As a remote-first team, we bring fresh
                     perspectives, cutting-edge technology, and future-ready
                     strategies to empower businesses across the globe.
-                </h5>
+                </h3>
 
                 <p className="mb-8 text-lg lg:mb-10 lg:text-xl">
                     Together, let&apos;s innovate, collaborate, and build

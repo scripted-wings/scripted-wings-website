@@ -10,12 +10,12 @@ const Hero = () => {
                     Services
                 </h1>
 
-                <h4 className="mt-4 text-2xl font-medium lg:text-3xl">
+                <h2 className="mt-4 text-2xl font-medium lg:text-3xl">
                     Your vision, brought to life with cutting-edge tech and
                     smart strategies.
-                </h4>
+                </h2>
 
-                <h5 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
+                <h3 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
                     At Scripted Wings Technology Solutions, we don&apos;t just
                     deliver services—we redefine possibilities. From stunning
                     websites that leave lasting impressions to apps your users
@@ -27,7 +27,7 @@ const Hero = () => {
                     matter. Backed by the latest technologies and fueled by a
                     passion for innovation, we turn your bold ideas into
                     game-changing realities.
-                </h5>
+                </h3>
 
                 <p className="mb-8 text-lg lg:mb-10 lg:text-xl">
                     Together, let&apos;s create something extraordinary.
