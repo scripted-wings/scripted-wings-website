@@ -27,7 +27,7 @@ export const getMetadata = (
             siteName: "Scripted Wings Technology Solutions",
             images: [
                 {
-                    url: "https://ik.imagekit.io/scriptedwings/logo.svg",
+                    url: "https://ik.imagekit.io/scriptedwings/og.svg",
                     width: 1200,
                     height: 630,
                     alt: title,
