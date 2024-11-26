@@ -23,7 +23,7 @@ export const getMetadata = (
         openGraph: {
             title,
             description,
-            url: "https://www.scriptedwings.com",
+            url: "https://scriptedwings.com",
             siteName: "Scripted Wings Technology Solutions",
             images: [
                 {
