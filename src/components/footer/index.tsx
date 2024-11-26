@@ -14,9 +14,9 @@ const Footer = () => {
                             </h4>
 
                             <p>
-                                Scripted Wings Technology Solutions, Regency
-                                Tower, Vastrapur, Ahmedabad, Gujarat India -
-                                380015
+                                Scripted Wings Technology Solutions, A-101,
+                                Regency Tower, Vastrapur, Ahmedabad, Gujarat
+                                India - 380015
                             </p>
                         </div>
 

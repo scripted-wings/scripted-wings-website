@@ -78,7 +78,7 @@ export const getSchemaData = (
                 address: {
                     "@type": "PostalAddress",
                     streetAddress:
-                        "Scripted Wings Technology Solutions, Regency Tower, Vastrapur",
+                        "Scripted Wings Technology Solutions, A-101, Regency Tower, Vastrapur",
                     addressLocality: "Ahmedabad",
                     addressRegion: "Gujarat",
                     postalCode: "380015",
