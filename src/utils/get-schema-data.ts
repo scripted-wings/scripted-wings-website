@@ -82,7 +82,7 @@ export const getSchemaData = (
                     addressLocality: "Ahmedabad",
                     addressRegion: "Gujarat",
                     postalCode: "380015",
-                    addressCountry: "India",
+                    addressCountry: "IN",
                 },
                 aggregateRating: {
                     "@type": "AggregateRating",
