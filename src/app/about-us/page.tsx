@@ -26,7 +26,7 @@ export const metadata: Metadata = getMetadata(
 
 const AboutUs = () => {
     const schemaData = getSchemaData(
-        "/about-us",
+        "about-us",
         "About Us | Creativity Meets Technology | Scripted Wings",
         "Learn about Scripted Wings—a remote-first team blending creativity and tech to craft digital solutions. Discover our vision and values today."
     );

@@ -20,7 +20,7 @@ export const metadata: Metadata = getMetadata(
 
 const Services = () => {
     const schemaData = getSchemaData(
-        "/services",
+        "services",
         "Services | Websites, Apps, Cloud Solutions | Scripted Wings",
         "Explore Scripted Wings' services—websites, apps, cloud solutions, and digital marketing. We deliver results that inspire and drive growth."
     );

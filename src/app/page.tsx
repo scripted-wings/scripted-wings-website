@@ -22,7 +22,7 @@ export const metadata: Metadata = getMetadata(
 
 const Home = () => {
     const schemaData = getSchemaData(
-        "/",
+        "",
         "Scripted Wings | Turning Ideas Into Reality",
         "Discover Scripted Wings Technology Solutions. We craft websites, apps, and cloud solutions to help businesses innovate and thrive. Start today!"
     );
