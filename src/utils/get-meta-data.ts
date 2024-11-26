@@ -50,9 +50,9 @@ export const getMetadata = (
             apple: "/apple-icon.png",
         },
         alternates: {
-            canonical: "https://scriptedwings.com",
+            canonical: `https://scriptedwings.com/${path}`,
             languages: {
-                en: "https://scriptedwings.com",
+                en: `https://scriptedwings.com/${path}`,
             },
         },
         applicationName: "Scripted Wings Technology Solutions",

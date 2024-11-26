@@ -12,7 +12,7 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = getMetadata(
-    "/about-us",
+    "about-us",
     "About Us | Creativity Meets Technology | Scripted Wings",
     "Learn about Scripted Wings—a remote-first team blending creativity and tech to craft digital solutions. Discover our vision and values today.",
     [

@@ -8,7 +8,7 @@ import Service from "../containers/home/service";
 import WhyChooseUs from "../containers/home/why-choose-us";
 
 export const metadata: Metadata = getMetadata(
-    "/",
+    "",
     "Scripted Wings | Turning Ideas Into Reality",
     "Discover Scripted Wings Technology Solutions. We craft websites, apps, and cloud solutions to help businesses innovate and thrive. Start today!",
     [
