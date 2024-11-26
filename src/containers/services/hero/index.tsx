@@ -10,12 +10,12 @@ const Hero = () => {
                     Services
                 </h1>
 
-                <h2 className="mt-4 text-2xl font-medium lg:text-3xl">
+                <h4 className="mt-4 text-2xl font-medium lg:text-3xl">
                     Your vision, brought to life with cutting-edge tech and
                     smart strategies.
-                </h2>
+                </h4>
 
-                <h2 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
+                <h5 className="mb-1 mt-10 text-lg lg:mt-16 lg:text-xl">
                     At Scripted Wings Technology Solutions, we don&apos;t just
                     deliver services—we redefine possibilities. From stunning
                     websites that leave lasting impressions to apps your users
@@ -27,20 +27,19 @@ const Hero = () => {
                     matter. Backed by the latest technologies and fueled by a
                     passion for innovation, we turn your bold ideas into
                     game-changing realities.
-                </h2>
+                </h5>
 
-                <h2 className="mb-8 text-lg lg:mb-10 lg:text-xl">
+                <p className="mb-8 text-lg lg:mb-10 lg:text-xl">
                     Together, let&apos;s create something extraordinary.
-                </h2>
+                </p>
 
-                <button>
-                    <Link
-                        href="/#contact-us"
-                        className="border bg-font-color p-4 text-background-color hover:bg-background-color hover:text-font-color"
-                    >
-                        Let&apos;s Get Started
-                    </Link>
-                </button>
+                <Link
+                    href="/#contact-us"
+                    className="border bg-font-color p-4 text-background-color hover:bg-background-color hover:text-font-color"
+                    aria-label="Navigate to contact us section"
+                >
+                    Let&apos;s Get Started
+                </Link>
             </div>
 
             <div className="mt-16 lg:my-0 lg:w-5/12">

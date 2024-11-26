@@ -43,9 +43,10 @@ const Navbar = () => {
 
             <Link
                 href="/#contact-us"
-                className="flex h-full border border-highlight-color bg-highlight-color px-4 text-background-color transition-colors hover:bg-background-color hover:text-highlight-color"
+                className="flex h-full items-center justify-center border border-highlight-color bg-highlight-color px-4 text-background-color transition-colors hover:bg-background-color hover:text-highlight-color"
+                aria-label="Navigate to contact us section"
             >
-                <button>Contact Us</button>
+                Contact Us
             </Link>
         </nav>
     );

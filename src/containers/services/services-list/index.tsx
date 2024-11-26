@@ -54,18 +54,17 @@ const ServicesList = () => {
 
                                 <p className="mt-6">{description}</p>
 
-                                <button>
-                                    <Link
-                                        href="/#contact-us"
-                                        className="group mt-6 flex w-fit items-center gap-4 bg-font-color px-6 py-4 text-left text-background-color"
-                                    >
-                                        <p>{cta}</p>
+                                <Link
+                                    href="/#contact-us"
+                                    className="group mt-6 flex w-fit items-center gap-4 bg-font-color px-6 py-4 text-left text-background-color"
+                                    aria-label="Navigate to contact us section"
+                                >
+                                    <p>{cta}</p>
 
-                                        <span className="text-lg transition-all duration-150 ease-in-out group-hover:mr-2 group-hover:translate-x-2">
-                                            <RightArrow />
-                                        </span>
-                                    </Link>
-                                </button>
+                                    <span className="text-lg transition-all duration-150 ease-in-out group-hover:mr-2 group-hover:translate-x-2">
+                                        <RightArrow />
+                                    </span>
+                                </Link>
                             </div>
 
                             <div className="h-full bg-secondary-background-color p-8 lg:flex lg:p-12">

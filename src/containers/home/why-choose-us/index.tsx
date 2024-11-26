@@ -32,12 +32,14 @@ const WhyChooseUs = () => {
             </div>
 
             <Link
-                className="group inline-flex w-fit flex-col"
                 href="/#contact-us"
+                className="group inline-flex w-fit flex-col"
+                aria-label="Navigate to contact us section"
             >
                 <p className="font-mono tracking-widest md:text-lg">
                     Let&apos;s Talk
                 </p>
+
                 <span className="h-0.5 w-full bg-font-color transition-all group-hover:translate-x-4" />
             </Link>
         </Container>
