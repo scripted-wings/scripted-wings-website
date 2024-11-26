@@ -6,6 +6,8 @@ export const getMetadata = (
     description: string,
     keywords: string[]
 ): Metadata => {
+    const url = `https://scriptedwings.com/${path}`;
+
     return {
         title,
         description,
@@ -23,7 +25,7 @@ export const getMetadata = (
         openGraph: {
             title,
             description,
-            url: "https://scriptedwings.com",
+            url,
             siteName: "Scripted Wings Technology Solutions",
             images: [
                 {
@@ -34,9 +36,11 @@ export const getMetadata = (
                 },
             ],
             locale: "en_US",
+            alternateLocale: ["en_IN"],
             type: "website",
-            countryName: "India",
+            countryName: "IN",
             emails: ["scriptedwings@outlook.com"],
+            phoneNumbers: ["+919773195484"],
         },
         twitter: {
             card: "summary_large_image",
@@ -50,9 +54,9 @@ export const getMetadata = (
             apple: "/apple-icon.png",
         },
         alternates: {
-            canonical: `https://scriptedwings.com/${path}`,
+            canonical: url,
             languages: {
-                en: `https://scriptedwings.com/${path}`,
+                en: url,
             },
         },
         applicationName: "Scripted Wings Technology Solutions",

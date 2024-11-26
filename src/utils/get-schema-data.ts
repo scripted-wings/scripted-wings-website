@@ -69,7 +69,7 @@ export const getSchemaData = (
                 contactPoint: [
                     {
                         "@type": "ContactPoint",
-                        telephone: "+91 97731 95484",
+                        telephone: "+919773195484",
                         contactType: "Admin Office",
                         areaServed: "IN",
                         availableLanguage: ["English"],
