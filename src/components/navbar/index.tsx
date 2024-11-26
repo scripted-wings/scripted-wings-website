@@ -7,6 +7,7 @@ const Navbar = () => {
     return (
         <nav
             role="navigation"
+            aria-label="Main Navigation"
             id="navbar"
             className="fixed left-0 right-0 top-0 z-50 flex h-12 items-center justify-between bg-background-color pl-8 shadow-md md:h-14"
         >
